@@ -10,8 +10,8 @@ after clone project, go to auto-tagging-medical/ then
 ```
 > npm install
 > node crawler.js // crawl data from wikipeadia
-> python trainning_model.py // filter data and trainning then save to model File
-> python load_model.py // get model File then run server
+> python trainning_model.py // filter data and trainning then save model File
+> python load_model.py // read model File then run server
 ```
 ##### How to test:
 example you have a sentence like "I'm having a chest pain"
