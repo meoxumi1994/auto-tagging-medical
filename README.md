@@ -4,7 +4,7 @@
 * crawls data from wiki about all object given "Anesthesiology", "Dermatology", ...
 * preprocess by using list stopword, convert to lowercase and just keep alphabet character, remove all word too short, ...
 * with each sentence we need tag a medical condition so i using one-hot vector to display each sentence and each medical condition
-* after that i prepare train and test data by using 10% of all data to test
+* after that i prepare train and test data by using 10% of all data to test, acc = 0.98
 ##### How to run :
 after clone project, go to auto-tagging-medical/ then
 ```
