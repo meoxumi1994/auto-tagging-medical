@@ -14,6 +14,6 @@ after clone project, go to auto-tagging-medical/ then
 > python load_model.py // read model File then run server
 ```
 ##### How to test:
-example you have a sentence like "I'm having a chest pain"
-request `http://localhost:8080/I'm having a chest pain`
-then get result by string
+* example you have a question : "I'm having a chest pain"
+* then request `http://localhost:8080/I'm having a chest pain`
+* then get result by string
