@@ -10,7 +10,7 @@ after clone project, go to auto-tagging-medical/ then
 ```
 > npm install
 > node crawler.js // crawl data from wikipeadia
-> python trainning_model.py // filter data and trainning then save model File
+> python training_model.py // filter data and training then save model File
 > python load_model.py // read model File then run server
 ```
 ##### How to test:
