@@ -1,16 +1,16 @@
 ### Hi, this is project about automation tag medical condition from a sentence
 
 ##### Method :
-* crawls data from wiki about all object given "Anesthesiology", "Dermatology", ...
+* crawling data from wiki about all object given "Anesthesiology", "Dermatology", ...
 * preprocess by using list stopword, convert to lowercase and just keep alphabet character, remove all word too short, ...
-* with each sentence we need tag a medical condition so i using one-hot vector to display each sentence and each medical condition
-* after that i prepare train and test data by using 10% of all data to test, acc = 0.98
+* we need tag a medical condition with each sentence so i use one-hot vector to display each sentence and medical condition
+* after that i prepare training and testing data by using 10% of all data to test, acc = 0.98
 ##### How to run :
 after clone project, go to auto-tagging-medical/ then
 ```
 > npm install
 > node crawler.js // crawl data from wikipeadia
-> python training_model.py // filter data and training then save model File
+> python training_model.py // filter data and training then save model File, install library if missing
 > python load_model.py // read model File then run server
 ```
 ##### How to test:
