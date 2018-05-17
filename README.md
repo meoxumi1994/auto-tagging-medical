@@ -15,5 +15,5 @@ after clone project, go to auto-tagging-medical/ then
 ```
 ##### How to test:
 example you have a sentence like "I'm having a chest pain"
-request to http://localhost:8080/I'm having a chest pain
+request `http://localhost:8080/I'm having a chest pain`
 then get result by string
